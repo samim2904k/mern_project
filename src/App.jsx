@@ -119,7 +119,7 @@ function App() {
           <Route path="/handlestate" element={< HandleState />}/>
           <Route path="/handleform" element={< HandleFormState />}/>
           <Route path="/uccomponent" element={< UCcomponent/>}/>
-          <Route path="/useeffect" element={< UseEffect />}/>
+          {/* <Route path="/useeffect" element={< UseEffect />}/> */}
           <Route path="/arrayuseeffect" element={< ArrayUseEffect />}/>
           <Route path="/usecontext" element={< UseContext />}/>
           <Route path="/usecallback" element={< UseCallBack />}/>
