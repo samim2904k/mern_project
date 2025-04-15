@@ -12,7 +12,7 @@ import UserList from "./Component/UserList";
 import HandleState from "./Component/HandleState";
 import HandleFormState from "./Component/HandleFormState";
 import UCcomponent from "./Component/UCcomponent";
-import UseEffect from "./Component/useEffect";
+// import UseEffect from "./Component/useEffect";
 import ArrayUseEffect from "./Component/ArrayUseEffect";
 import UseContext from "./Component/UseContext";
 import UseCallBack from "./Component/UseCallBack";
