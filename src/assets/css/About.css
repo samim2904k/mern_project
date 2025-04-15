@@ -1,0 +1,91 @@
+/* About Page Container */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e1e, #252525);
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* About Content */
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Profile Image */
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Highlighted Text */
+  .highlight {
+    color: #ffcc00;
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+  }
+  
+  .btn-primary {
+    background: #ffcc00;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background: #ffa500;
+    transform: scale(1.05);
+  }
+  
+  .btn-outline-light {
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .btn-outline-light:hover {
+    background: white;
+    color: black;
+    transform: scale(1.05);
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

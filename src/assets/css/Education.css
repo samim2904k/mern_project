@@ -1,0 +1,59 @@
+/* Full-Screen Background */
+.education-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e1e, #252525);
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Education Content Box */
+  .education-content {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in-out;
+    max-width: 800px;
+    width: 90%;
+  }
+  
+  /* Education Timeline */
+  .education-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Education Box */
+  .education-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    font-weight: bold;
+    color: #ffcc00;
+    font-size: 1.2rem;
+  }
+  
+  .education-box:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

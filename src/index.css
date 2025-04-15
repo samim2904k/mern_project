@@ -1,0 +1,36 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #121212;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #ffcc00;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: #ffa500;
+  transform: scale(1.05);
+}

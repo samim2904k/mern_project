@@ -1,0 +1,45 @@
+/* Navbar Background */
+.custom-navbar {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Navbar Links */
+  .nav-hover {
+    position: relative;
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-hover:hover {
+    color: #ffcc00 !important;
+  }
+  
+  .nav-hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background: #ffcc00;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-hover:hover::after {
+    transform: scaleX(1);
+  }
+  
+  /* Mobile Navbar */
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
